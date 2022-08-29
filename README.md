@@ -9,4 +9,4 @@ The findings from this study showed that:
     The Random Forest algorithm was best to predict credit risk with F1-score of 44%;
     Tuning the hyperparameters, the Random Forest algorithm produced a more acute accuracy for the training and test data of 87.9% and 75.3% respectively.
 
-##### This analysis was carried out as my final year thesis.
+#### This analysis was carried out as my final year thesis.
