@@ -8,9 +8,13 @@ The techniques are implemented on the German credit dataset taken from UCI repos
 The findings from this study were;
 
 i.	Machine learning algorithms had a better performance compared to the logistic regression and among the machine learning models, Random Forest algorithm showed the best efficiency at modelling customers’ credit risk. This was followed by the Decision Trees algorithm while the logistic regression model performed the worst.
+
 ii.	The measure that was used to capture the efficiency of the models was the F1-score. However, logistic regression did perform well when it came to the Accuracy measure, with an accuracy of 69%. The accuracy measure is however, not a good measure of performance as it does not take into account the cost of misclassification which was captured in the false-positives and false-negatives.
+
 iii.	The presence of data imbalance made overfitting an issue and Random Forest, being an algorithm that is robust against overfitting effects, could have been the reason why it performed best among others.
+
 iv.	To optimize for a better threshold between Precision and Recall, the study conducted a hyperparameter optimization and model tuning and the Random Forest model still outperformed with the F1-score improving to 51% from an initial score of 47%.
+
 v.	The Random Forest classification algorithm used for granting loans under the 0.241 threshold (cut-off), had a loan approval rate of 51.3% and rejection rate of 48.7%.
 
 
