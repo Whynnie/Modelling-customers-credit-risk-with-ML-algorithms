@@ -6,7 +6,7 @@ Credit risk evaluation is one of the critical and biggest challenges faced in fi
 The techniques are implemented on the German credit dataset taken from UCI repository which has 1000 instances and 21 attributes, depending on which the transactions are either accepted or rejected. This thesis compares algorithms such as Support Vector Network, K Nearest Neighbors (KNN), Logistic Regression, Naive Bayes, Random Forest, and Classification and Regression Trees (CART) algorithm and based upon metrics such as Accuracy, Error, Precision, Recall, F1-score and Specificity, the efficiency of the best algorithm was selected. Due to the imbalanced nature of the credit data, the F1-score, which is a weighted average of the Precision and Recall, was eventually used as the metric to assess the best algorithm for loaning credit. 
 
 The findings from this study showed that:
-i.	The Random Forest algorithm was best to predict credit risk with F1-score of 44%;
-ii.	Tuning the hyperparameters, the Random Forest algorithm produced a more acute accuracy for the training and test data of 87.9% and 75.3% respectively.
+    The Random Forest algorithm was best to predict credit risk with F1-score of 44%;
+    Tuning the hyperparameters, the Random Forest algorithm produced a more acute accuracy for the training and test data of 87.9% and 75.3% respectively.
 
 ##### This analysis was carried out as my final year thesis.
