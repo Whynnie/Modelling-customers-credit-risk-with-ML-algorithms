@@ -1,2 +1,2 @@
-# Credit-risk-modelling-using-machine-learning-techniques
+# CREDIT RISK MODELLING USING MACHINE LEARNING TECHNIQUES
 This analysis was carried out as my final year thesis.
