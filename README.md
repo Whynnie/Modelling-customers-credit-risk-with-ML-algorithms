@@ -1,11 +1,11 @@
 <h1 align="center"> CUSTOMERS' CREDIT RISK MODELLING USING ML ALGORITHMS
 
-## INTRODUCTION
+## Brief Introduction
 Credit risk evaluation is one of the critical and biggest challenges faced in financial institutions. However, analysis of credit scoring is an effective credit risk assessment technique, which is one of the major research fields in the financial institution. Modelling the accuracy plays a very important role in the classification of credit data to avoid financial loss via customers credits. Machine learning has a variety of applications in the banking sector and it has been widely used for data analysis. Modern techniques such as machine learning have provided a self-regulating process to analyze the data using classification techniques. The classification method is a supervised learning process in which the computer learns from the input data provided and makes use of this information to classify the new dataset. This thesis presents a comparison of various machine learning techniques used to evaluate the credit risk. A credit transaction that needs to be accepted or rejected is trained and implemented on the dataset using different machine learning algorithms. The purpose of this study is to identify whether there are improved performances in the classification of consumers’ default when different machine learning algorithms are implemented. The aim is to minimize customers’ risk.
 
 The techniques are implemented on the German credit dataset taken from UCI repository which has 1000 instances and 21 attributes, depending on which the transactions are either accepted or rejected. This thesis compares algorithms such as Support Vector Network, K Nearest Neighbors (KNN), Logistic Regression, Naive Bayes, Random Forest, and Classification and Regression Trees (CART) algorithm and based upon metrics such as Accuracy, Error, Precision, Recall, F1-score and Specificity, the efficiency of the best algorithm was selected. Due to the imbalanced nature of the credit data, the F1-score, which is a weighted average of the Precision and Recall, was eventually used as the metric to assess the best algorithm for loaning credit. 
 
-## FINDINGS
+## Study Findings
 The findings from this study were;
 
 i.	Machine learning algorithms had a better performance compared to the logistic regression and among the machine learning models, Random Forest algorithm showed the best efficiency at modelling customers’ credit risk. This was followed by the Decision Trees algorithm while the logistic regression model performed the worst.
